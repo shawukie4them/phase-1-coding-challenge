@@ -36,7 +36,7 @@ function payecalculations(grosssalary){
 function nhifcalculations(){
     var nhif;
     if (grosssalary <= 5999){
-        nhif = 150;
+        nhif = 150;s
     }else if(glosssalary <= 7999){
         nhif = 300;
     }else if(grosssalary <= 11999){
