@@ -15,7 +15,7 @@ function speed(){
         alert('ok');
     }else{
         var points = Math.floor((speed - limit) / kmperpoint);
-        if (points > 12){
+        if(points > 12){
             alert('License suspended');
         }else{
             alert('Points: ' + points);

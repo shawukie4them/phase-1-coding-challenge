@@ -84,3 +84,5 @@ var nssf = nssfcalculation(glosssalary);
 var netsalary = glosssalary - (payee + nhif + nssf);
 
 alert(`Your gross salary: ${glosssalary.toFixed(2)}\nPAYE (Tax): ${payee.toFixed(2)}\nNHIF: ${nhif.toFixed(2)}\nNSSF: ${nssf.toFixed(2)}\nNet Salary: ${netsalary.toFixed(2)}`);
+
+calculator();

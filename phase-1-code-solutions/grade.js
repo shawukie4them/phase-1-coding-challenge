@@ -25,4 +25,4 @@ function grade(){
     alert('Your grade is: '+ grade);
 }
 
-getgrade();
+grade();
